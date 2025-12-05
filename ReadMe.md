@@ -78,6 +78,6 @@ Create a SQLLITE DB using sqlalchemy
 
 ## Hints
 
-Check the example.py only for hints
+Check the example-*.py files only when stuck for hints!
 
 ### Finished
