@@ -5,12 +5,6 @@ app = FastAPI()
 # temporary in memory fake DB
 items = []
 
-# Initialize SQLAlchemy DB on Startup of API
-# @app.on_event("startup")
-# def on_startup():
-#     print("Running database installer...")
-#     init_db()
-
 # 1 - make a root level API response
 @app.get("/")
 def root():
