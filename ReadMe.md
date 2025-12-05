@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To clone and practice writing FastAPI from scratch
+To clone and practice writing FastAPI services from scratch in Python.
 
 ## Quick Start
 
