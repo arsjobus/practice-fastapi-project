@@ -20,19 +20,23 @@ We must type each below commands without the help of AI.
 
 `pip install fastapi`
 
-4. Install Uvicorn
+4. Install SQLAlchemy
+
+`pip install sqlalchemy`
+
+5. Install Uvicorn
 
 `pip install uvicorn`
 
-5. Freeze Requirments
+6. Freeze Requirments
 
 `pip freeze > requirements.txt`
 
-6. Create 'main.py' Script
+7. Create 'main.py' Script
 
 `touch main.py`
 
-7. Import and make use of FastAPI to create a basic API
+8. Import and make use of FastAPI to create a basic API
 
 ## BASIC DRILL #1
 
@@ -51,6 +55,20 @@ So that I can check the value of specific items.
 As an API Consumer,
 I want to append items into a list,
 So that I can build a list of items to perform lookups on later.
+
+## BASIC DRILL #2
+
+Create a SQLLITE DB using sqlalchemy
+
+1. Make files: database.py and models.py
+
+2. Write the database file
+
+3. Write the models file
+
+4. Import and init the DB in the main.py file
+
+5. Query the DB to create, read, update, delete list item
 
 ## Hints
 
