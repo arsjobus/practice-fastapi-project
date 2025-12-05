@@ -38,6 +38,12 @@ We must type each below commands without the help of AI.
 
 8. Import and make use of FastAPI to create a basic API
 
+## Running Uvicorn
+
+Use command as:
+
+`uvicorn app.main:app --reload`
+
 ## BASIC DRILL #1
 
 As an API Consumer,
