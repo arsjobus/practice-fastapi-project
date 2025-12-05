@@ -14,7 +14,7 @@ We must type each below commands without the help of AI.
 
 2. Activate VENV
 
-`. ./venv/bin/activate`
+`. .venv/bin/activate`
 
 3. Install FastAPI
 
