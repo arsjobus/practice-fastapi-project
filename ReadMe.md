@@ -34,7 +34,7 @@ We must type each below commands without the help of AI.
 
 7. Create 'main.py' Script
 
-`touch main.py`
+`touch app/main.py`
 
 8. Import and make use of FastAPI to create a basic API
 
@@ -60,7 +60,7 @@ So that I can build a list of items to perform lookups on later.
 
 Create a SQLLITE DB using sqlalchemy
 
-1. Make files: database.py and models.py
+1. Make files: app/database.py and app/models.py
 
 2. Write the database file
 
