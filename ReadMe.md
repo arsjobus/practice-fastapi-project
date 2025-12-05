@@ -6,7 +6,7 @@ To clone and practice writing FastAPI from scratch
 
 ## Quick Start
 
-We must type test commands without the help of AI.
+We must type each below commands without the help of AI.
 
 1. Create a Python VENV
 
