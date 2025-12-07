@@ -12,7 +12,7 @@ class Priority(IntEnum):
 class TodoBase(BaseModel):
     todo_name: str = Field(..., min_length=3, max_length=512, description="Name of the todo")
     todo_description: str = Field(..., description="Description of the todo")
-    priority: Priority = Field(default=Priority.LOW, description="Priority of the todo")
+    todo_priority: Priority = Field(default=Priority.LOW, description="Priority of the todo")
 
 # Add the Type: TodoCreate
 class TodoCreate(TodoBase):
@@ -26,4 +26,10 @@ class Todo(TodoBase):
 class TodoUpdate(TodoBase):
     todo_name: Optional[str] = Field(None, min_length=3, max_length=512, description="Name of the todo")
     todo_description: Optional[str] = Field(None, description="Description of the todo")
-    priority: Optional[Priority] = Field(None, description="Priority of the todo")
+    todo_priority: Optional[Priority] = Field(None, description="Priority of the todo")
+
+todo_items = [
+    Todo(todo_id=1, todo_name="brush teeth", todo_description="some test about the todo item", todo_priority=Priority.HIGH),
+    Todo(todo_id=2, todo_name="take a shower", todo_description="some test about the todo item", todo_priority=Priority.HIGH),
+    Todo(todo_id=3, todo_name="wash dishes", todo_description="some test about the todo item", todo_priority=Priority.HIGH)
+]
